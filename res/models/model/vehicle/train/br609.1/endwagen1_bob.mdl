@@ -1,7 +1,7 @@
 function data()
 return {
 	boundingInfo = {
-		bbMax = { 3.3469231128693, 1.5564533472061, 4.5246438980103, },
+		bbMax = { 3.69255, 1.5564533472061, 4.5246438980103, },
 		bbMin = { -5.9172353744507, -2.5071187019348, -0.012266874313354, },
 	},
 	collider = {
@@ -44,6 +44,12 @@ return {
 						mesh = "vehicle/train/br609.1/endwagen/auspuff2_lod0.msh",
 						name = "Blech Auspuff 2",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br609.1/material.mtl", },
+						mesh = "vehicle/train/br609.1/faltenbalg_lod0.msh",
+						name = "faltenbalg",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.40285, 0, 2.5973, 1, },
 					},
                     {
 				        children = {
@@ -108,11 +114,11 @@ return {
 				{
 					alignment = "CENTER",
 					childId = "RootNode",
-					color = { 0, 0, 0, 1, },
+					color = { 0.48, 0.84, 0.63, 1, },
                     filter = "TEXT",
 					fitting = "SCALE",
-					size = { 1.4, 0.19, },
-                    transf = { 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 12.22, -0.7, 3.29, 1, },
+					size = { 1.6, 0.2, },
+                    transf = { 0, -1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, -4.77, 0.8, 2.95, 1, },
 					type = "LINE_NAME",
 				},
 			},
@@ -139,11 +145,11 @@ return {
 		railVehicle = {
 			configs = {
                 {
-					axles = { "vehicle/train/integral/achse_lod0.msh", },
-					frontForwardParts = { 12, },
-                    backBackwardParts = { 13, },
-					backForwardParts = { },
-					frontBackwardParts = { },
+					axles = { "vehicle/train/br609.1/achse_lod0.msh", },
+					frontForwardParts = { },
+                    backBackwardParts = { },
+					backForwardParts = { 14, },
+					frontBackwardParts = { 13, },
 				},
 				--[[{
 					axles = { "vehicle/train/integral/achse_lod1.msh", },
