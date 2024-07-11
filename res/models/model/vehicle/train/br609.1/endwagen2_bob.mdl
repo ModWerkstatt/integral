@@ -46,7 +46,7 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/material.mtl", },
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
 						mesh = "vehicle/train/br609.1/faltenbalg_lod0.msh",
 						name = "faltenbalg",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.40285, 0, 2.5973, 1, },
@@ -54,13 +54,13 @@ return {
                     {
 				        children = {
 					        {
-						        materials = { "vehicle/train/br609.1/material.mtl", },
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
 						        mesh = "vehicle/train/br609.1/laufwerk_lod0.msh",
 						        name = "Cube",
 						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/br609.1/material.mtl", },
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
 						        mesh = "vehicle/train/br609.1/achse_lod0.msh",
 						        name = "rad",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.46933299303055, 1, },
@@ -72,13 +72,13 @@ return {
                     {
 				        children = {
 					        {
-						        materials = { "vehicle/train/br609.1/material.mtl", },
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
 						        mesh = "vehicle/train/br609.1/laufwerk_lod0.msh",
 						        name = "Cube",
 						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/br609.1/material.mtl", },
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
 						        mesh = "vehicle/train/br609.1/achse_lod0.msh",
 						        name = "rad",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.46933299303055, 1, },
@@ -131,7 +131,7 @@ return {
 			price = -1,
 		},
 		description = {
-			name = _("Integral_BOB"),
+			name = _("Integral_Endwagen2_BOB"),
 		},
 		emission = {
 			idleEmission = -1,
@@ -183,9 +183,9 @@ return {
 				{
 					animation = "driving_upright",
 					crew = true,
-					forward = true,
+					forward = false,
 					group = 0,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 11.4, -0.84, 1.4, 1, },
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.6, 0, 1.0, 1.2, },
 				},
 				{	animation = "sitting",
 					crew = false,
@@ -542,7 +542,7 @@ return {
 					},
 				},
 			},
-			loadSpeed = 6,
+			loadSpeed = 1,
 			multipleUnitOnly = true,
 			reversible = true,
 		},
