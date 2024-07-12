@@ -2,10 +2,9 @@ function data()
 return {
 	vehicles = {
 		{ name = "vehicle/train/br609.1/endwagen1_bob.mdl", forward = false },
---		{ name = "vehicle/waggon/skodapushpull/SkodaDosto_mw.mdl", forward = true },
-		{ name = "vehicle/train/br609.1/laufwagen_bob.mdl", forward = true },
---		{ name = "vehicle/waggon/skodapushpull/SkodaDosto_mw.mdl", forward = true },
---		{ name = "vehicle/waggon/skodapushpull/SkodaDosto_mw.mdl", forward = true },
+		{ name = "vehicle/train/br609.1/fahrgastzelle21_bob.mdl", forward = true },
+   		{ name = "vehicle/train/br609.1/laufwagen_bob.mdl", forward = true },
+        { name = "vehicle/train/br609.1/fahrgastzelle21_bob.mdl", forward = false },
 		{ name = "vehicle/train/br609.1/endwagen2_bob.mdl", forward = true },
 	},
 	name = _("integral_name"),
