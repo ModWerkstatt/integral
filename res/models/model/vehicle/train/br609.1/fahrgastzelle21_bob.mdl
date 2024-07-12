@@ -462,11 +462,51 @@ return {
 			yearFrom = 1998,
 			yearTo = 2012,
 		},
+        labelList = {
+			labels = {
+				{
+					alignment = "CENTER",
+					childId = "RootNode",
+					color = { 0.48, 0.84, 0.63, 1, },
+					fitting = "SCALE",
+					size = { 1.0, 0.175, },
+					transf = {-1, 0, 0, 0, -0, -0, 1, 0, 0, 1, 0, 0, 5.4, 1.46, 3.075 , 1, },
+					type = "LINE_NAME",
+				},
+                {
+					alignment = "CENTER",
+					childId = "RootNode",
+					color = { 0.48, 0.84, 0.63, 1, },
+					fitting = "SCALE",
+					size = { 1.0, 0.175, },
+					transf = { 1, 0, 0, 0, 0, 0, 1, 0, 0, -1, 0, 0, 4.4, -1.46, 3.075 , 1, },
+					type = "LINE_NAME",
+				},
+				{
+					alignment = "CENTER",
+					childId = "RootNode",
+					color = { 0.48, 0.84, 0.63, 1, },
+					fitting = "SCALE",
+					size = { 1.0, 0.175, },
+					transf = {-1, 0, 0, 0, -0, -0, 1, 0, 0, 1, 0, 0, -4.4, 1.46, 3.075 , 1, },
+					type = "LINE_NAME",
+				},
+                {
+					alignment = "CENTER",
+					childId = "RootNode",
+					color = { 0.48, 0.84, 0.63, 1, },
+					fitting = "SCALE",
+					size = { 1.0, 0.175, },
+					transf = { 1, 0, 0, 0, 0, 0, 1, 0, 0, -1, 0, 0, -5.4, -1.46, 3.075 , 1, },
+					type = "LINE_NAME",
+				},
+			},
+		},
 		cost = {
 			price = -1,
 		},
 		description = {
-			name = _("Integral_Fahrgastzelle_BOB"),
+			name = _("Integral_Fahrgastzelle21_BOB"),
 		},
 		emission = {
 			idleEmission = -1,
