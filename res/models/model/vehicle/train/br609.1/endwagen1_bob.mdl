@@ -16,13 +16,13 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/train/br609.1/endwagen/rumpf_bob.mtl", },
+						materials = { "vehicle/train/br609.1/endwagen/rumpf_1_bob.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/rumpf_lod0.msh",
 						name = "Rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/endwagen/rumpf_bob.mtl", },
+						materials = { "vehicle/train/br609.1/endwagen/rumpf_1_bob.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/bugklappe_geschlossen_lod0.msh",
 						name = "Bugklappe geschlossen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -40,7 +40,7 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/endwagen/rumpf_bob.mtl", },
+						materials = { "vehicle/train/br609.1/endwagen/rumpf_1_bob.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/auspuff2_lod0.msh",
 						name = "Blech Auspuff 2",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },

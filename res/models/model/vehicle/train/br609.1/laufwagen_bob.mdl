@@ -75,6 +75,12 @@ return {
 				        name = "RootNode",
 				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.3481612205505, 0, 0, 1, },
                     },
+					{
+						materials = { "vehicle/train/br609.1/laufwagen/innen.mtl", },
+						mesh = "vehicle/train/br609.1/laufwagen/innen_lod0.msh",
+						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
 				},
 				name = "RootNode",
 				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
