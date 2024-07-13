@@ -87,6 +87,12 @@ return {
 				        name = "RootNode",
 				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.3481612205505, 0, 0, 1, },
                     },
+					{
+						materials = { "vehicle/train/br609.1/endwagen/innen.mtl", },
+						mesh = "vehicle/train/br609.1/endwagen/innen_1_lod0.msh",
+						name = "Blech Auspuff 1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
                     {
                         materials = { "vehicle/train/emissive/train_all_lights.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/licht_weiss_lod0.msh",
