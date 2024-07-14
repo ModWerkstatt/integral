@@ -247,13 +247,13 @@ return {
 	metadata = {
         availability = {
 			yearFrom = 1998,
-			yearTo = 2009,
+			yearTo = 2016,
 		},
 		cost = {
 			price = -1,
 		},
 		description = {
-			name = _("Integral_Laufwagen_BOB"),
+			name = _("Integral_Laufwagen").._("BOB"),
 		},
 		emission = {
 			idleEmission = -1,
