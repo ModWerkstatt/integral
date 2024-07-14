@@ -16,31 +16,31 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_bob.mtl", },
+						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_brb.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/rumpf_lod0.msh",
 						name = "Rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_bob.mtl", },
+						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_brb.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/bugklappe_geschlossen_lod0.msh",
 						name = "Bugklappe geschlossen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_bob.mtl", },
+						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_brb.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/bugklappe_offen_lod0.msh",
 						name = "Bugklappe geschlossen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_bob.mtl", },
+						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_brb.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/bugklappe_geschlossen_lod0.msh",
 						name = "Bugklappe geschlossen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_bob.mtl", },
+						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_brb.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/bugklappe_offen_lod0.msh",
 						name = "Bugklappe geschlossen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -58,7 +58,7 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_bob.mtl", },
+						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_brb.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/auspuff1_lod0.msh",
 						name = "Blech Auspuff 1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -135,19 +135,19 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_bob.mtl", },
+						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_brb.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/rumpf_lod1.msh",
 						name = "Rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_bob.mtl", },
+						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_brb.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/bugklappe_geschlossen_lod1.msh",
 						name = "Bugklappe geschlossen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_bob.mtl", },
+						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_brb.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/bugklappe_geschlossen_lod1.msh",
 						name = "Bugklappe geschlossen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -165,7 +165,7 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_bob.mtl", },
+						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_brb.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/auspuff1_lod1.msh",
 						name = "Blech Auspuff 1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -242,19 +242,19 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_bob.mtl", },
+						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_brb.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/rumpf_lod2.msh",
 						name = "Rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_bob.mtl", },
+						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_brb.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/bugklappe_geschlossen_lod2.msh",
 						name = "Bugklappe geschlossen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_bob.mtl", },
+						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_brb.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/bugklappe_geschlossen_lod2.msh",
 						name = "Bugklappe geschlossen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -272,7 +272,7 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_bob.mtl", },
+						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_brb.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/auspuff1_lod2.msh",
 						name = "Blech Auspuff 1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -350,14 +350,14 @@ return {
 			},
 		},
         availability = {
-			yearFrom = 1998,
-			yearTo = 2016,
+			yearFrom = 2016,
+			yearTo = 2021,
 		},
 		cost = {
 			price = -1,
 		},
 		description = {
-			name = _("Integral_Endwagen2").._("BOB"),
+			name = _("Integral_Endwagen2").._("BRB"),
 		},
 		emission = {
 			idleEmission = -1,

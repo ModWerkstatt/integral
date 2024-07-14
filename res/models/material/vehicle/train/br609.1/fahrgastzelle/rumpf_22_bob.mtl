@@ -25,11 +25,11 @@ return {
 			type = "TWOD",
 		},
 		map_metal_gloss_ao = {
-			fileName = "models/vehicle/train/br609.1/fahrgastzelle/rumpf_22_bob_metal_gloss_ao.dds",
+			fileName = "models/vehicle/train/br609.1/fahrgastzelle/rumpf_22_metal_gloss_ao.dds",
 			type = "TWOD",
 		},
 		map_normal = {
-			fileName = "models/vehicle/train/br609.1/fahrgastzelle/rumpf_22_bob_normal.dds",
+			fileName = "models/vehicle/train/br609.1/fahrgastzelle/rumpf_22_normal.dds",
 			redGreen = true,
 			type = "TWOD",
 		},

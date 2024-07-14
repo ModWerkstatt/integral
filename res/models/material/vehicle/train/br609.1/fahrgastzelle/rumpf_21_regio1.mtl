@@ -17,7 +17,7 @@ return {
 			fadeOutStartDist = 10000,
 		},
 		map_albedo = {
-			fileName = "models/vehicle/train/br609.1/fahrgastzelle/rumpf_21_bob_albedo.dds",
+			fileName = "models/vehicle/train/br609.1/fahrgastzelle/rumpf_21_regio1_albedo.dds",
 			type = "TWOD",
 		},
 		map_cblend_dirt_rust = {

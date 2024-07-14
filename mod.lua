@@ -1,7 +1,7 @@
 ﻿function data()
 return {
 	info = {
-		minorVersion = 1,
+		minorVersion = 0,
 		severityAdd = "NONE",
 		severityRemove = "WARNING",
 		name = _("mod_name"),
@@ -12,7 +12,7 @@ return {
 		        role = "CREATOR",
 		    },
 		},
-		tags = { "europe", "train", "locomotive", "engine", "diesel" },
+		tags = { "europe", "train", "integral", "engine", "diesel" },
 		dependencies = { },
 		url = { "" },
 	},

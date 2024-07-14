@@ -551,7 +551,7 @@ return {
 				{
 					{
 						{
-							capacity = 100,
+							capacity = 80,
 							type = "PASSENGERS",
 						},
 					},

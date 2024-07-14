@@ -16,7 +16,7 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						mesh = "vehicle/train/br609.1/laufwagen/rumpf_lod0.msh",
 						name = "Rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -28,13 +28,13 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						mesh = "vehicle/train/br609.1/faltenbalg_lod0.msh",
 						name = "faltenbalg",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.501, 0, 2.5973, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						mesh = "vehicle/train/br609.1/faltenbalg_lod0.msh",
 						name = "faltenbalg",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.317, 0, 2.5973, 1, },
@@ -42,13 +42,13 @@ return {
                     {
 				        children = {
 					        {
-						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						        mesh = "vehicle/train/br609.1/laufwerk_lod0.msh",
 						        name = "Cube",
 						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						        mesh = "vehicle/train/br609.1/achse_lod0.msh",
 						        name = "rad",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.46933299303055, 1, },
@@ -60,13 +60,13 @@ return {
                     {
 				        children = {
 					        {
-						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						        mesh = "vehicle/train/br609.1/laufwerk_lod0.msh",
 						        name = "Cube",
 						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						        mesh = "vehicle/train/br609.1/achse_lod0.msh",
 						        name = "rad",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.46933299303055, 1, },
@@ -93,7 +93,7 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						mesh = "vehicle/train/br609.1/laufwagen/rumpf_lod1.msh",
 						name = "Rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -105,13 +105,13 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						mesh = "vehicle/train/br609.1/faltenbalg_lod1.msh",
 						name = "faltenbalg",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.501, 0, 2.5973, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						mesh = "vehicle/train/br609.1/faltenbalg_lod1.msh",
 						name = "faltenbalg",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.317, 0, 2.5973, 1, },
@@ -119,13 +119,13 @@ return {
                     {
 				        children = {
 					        {
-						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						        mesh = "vehicle/train/br609.1/laufwerk_lod1.msh",
 						        name = "Cube",
 						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						        mesh = "vehicle/train/br609.1/achse_lod1.msh",
 						        name = "rad",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.46933299303055, 1, },
@@ -137,13 +137,13 @@ return {
                     {
 				        children = {
 					        {
-						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						        mesh = "vehicle/train/br609.1/laufwerk_lod1.msh",
 						        name = "Cube",
 						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						        mesh = "vehicle/train/br609.1/achse_lod1.msh",
 						        name = "rad",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.46933299303055, 1, },
@@ -170,7 +170,7 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						mesh = "vehicle/train/br609.1/laufwagen/rumpf_lod2.msh",
 						name = "Rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -182,13 +182,13 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						mesh = "vehicle/train/br609.1/faltenbalg_lod2.msh",
 						name = "faltenbalg",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.501, 0, 2.5973, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						mesh = "vehicle/train/br609.1/faltenbalg_lod2.msh",
 						name = "faltenbalg",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.317, 0, 2.5973, 1, },
@@ -196,13 +196,13 @@ return {
                     {
 				        children = {
 					        {
-						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						        mesh = "vehicle/train/br609.1/laufwerk_lod2.msh",
 						        name = "Cube",
 						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						        mesh = "vehicle/train/br609.1/achse_lod2.msh",
 						        name = "rad",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.46933299303055, 1, },
@@ -214,13 +214,13 @@ return {
                     {
 				        children = {
 					        {
-						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						        mesh = "vehicle/train/br609.1/laufwerk_lod2.msh",
 						        name = "Cube",
 						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
 						        mesh = "vehicle/train/br609.1/achse_lod2.msh",
 						        name = "rad",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.46933299303055, 1, },
@@ -246,14 +246,14 @@ return {
 	},
 	metadata = {
         availability = {
-			yearFrom = 1998,
-			yearTo = 2023,
+			yearFrom = 2023,
+			yearTo = 0,
 		},
 		cost = {
 			price = -1,
 		},
 		description = {
-			name = _("Integral_Laufwagen").._("BOB"),
+			name = _("Integral_Laufwagen").._("Regio"),
 		},
 		emission = {
 			idleEmission = -1,

@@ -17,19 +17,19 @@ return {
 			fadeOutStartDist = 10000,
 		},
 		map_albedo = {
-			fileName = "models/vehicle/train/br609.1/fahrgastzelle/rumpf_21_bob_albedo.dds",
+			fileName = "models/vehicle/train/br609.1/fahrgastzelle/rumpf_22_brb_albedo.dds",
 			type = "TWOD",
 		},
 		map_cblend_dirt_rust = {
-			fileName = "models/vehicle/train/br609.1/fahrgastzelle/rumpf_21_cblend_dirt_rust.dds",
+			fileName = "models/vehicle/train/br609.1/fahrgastzelle/rumpf_22_cblend_dirt_rust.dds",
 			type = "TWOD",
 		},
 		map_metal_gloss_ao = {
-			fileName = "models/vehicle/train/br609.1/fahrgastzelle/rumpf_21_metal_gloss_ao.dds",
+			fileName = "models/vehicle/train/br609.1/fahrgastzelle/rumpf_22_metal_gloss_ao.dds",
 			type = "TWOD",
 		},
 		map_normal = {
-			fileName = "models/vehicle/train/br609.1/fahrgastzelle/rumpf_21_normal.dds",
+			fileName = "models/vehicle/train/br609.1/fahrgastzelle/rumpf_22_normal.dds",
 			redGreen = true,
 			type = "TWOD",
 		},
