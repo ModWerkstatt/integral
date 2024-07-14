@@ -41,13 +41,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_left = {
+					        open_doors_right = {
 						        params = {
 							        id = "vehicle/train/br609.1/tritt.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_left = {
+					        close_doors_right = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/br609.1/tritt.ani",
@@ -75,13 +75,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_left = {
+					        open_doors_right = {
 						        params = {
 							        id = "vehicle/train/br609.1/tritt.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_left = {
+					        close_doors_right = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/br609.1/tritt.ani",
@@ -109,13 +109,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_right = {
+					        open_doors_left = {
 						        params = {
 							        id = "vehicle/train/br609.1/tritt.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_right = {
+					        close_doors_left = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/br609.1/tritt.ani",
@@ -143,13 +143,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_right = {
+					        open_doors_left = {
 						        params = {
 							        id = "vehicle/train/br609.1/tritt.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_right = {
+					        close_doors_left = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/br609.1/tritt.ani",
@@ -177,13 +177,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_left = {
+					        open_doors_right = {
 						        params = {
 							        id = "vehicle/train/br609.1/tuer_r.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_left = {
+					        close_doors_right = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/br609.1/tuer_r.ani",
@@ -211,13 +211,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_left = {
+					        open_doors_right = {
 						        params = {
 							        id = "vehicle/train/br609.1/tuer_l.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_left = {
+					        close_doors_right = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/br609.1/tuer_l.ani",
@@ -245,13 +245,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_left = {
+					        open_doors_right = {
 						        params = {
 							        id = "vehicle/train/br609.1/tuer_l.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_left = {
+					        close_doors_right = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/br609.1/tuer_l.ani",
@@ -279,13 +279,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_left = {
+					        open_doors_right = {
 						        params = {
 							        id = "vehicle/train/br609.1/tuer_r.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_left = {
+					        close_doors_right = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/br609.1/tuer_r.ani",
@@ -314,13 +314,13 @@ return {
 
 					{
 				        animations = {
-					        open_doors_right = {
+					        open_doors_left = {
 						        params = {
 							        id = "vehicle/train/br609.1/tuer_l.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_right = {
+					        close_doors_left = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/br609.1/tuer_l.ani",
@@ -348,13 +348,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_right = {
+					        open_doors_left = {
 						        params = {
 							        id = "vehicle/train/br609.1/tuer_r.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_right = {
+					        close_doors_left = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/br609.1/tuer_r.ani",
@@ -382,13 +382,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_right = {
+					        open_doors_left = {
 						        params = {
 							        id = "vehicle/train/br609.1/tuer_r.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_right = {
+					        close_doors_left = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/br609.1/tuer_r.ani",
@@ -416,13 +416,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_right = {
+					        open_doors_left = {
 						        params = {
 							        id = "vehicle/train/br609.1/tuer_l.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_right = {
+					        close_doors_left = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/br609.1/tuer_l.ani",
@@ -466,7 +466,635 @@ return {
 			},
 			static = false,
 			visibleFrom = 0,
-			visibleTo = 1280.2540283203,
+			visibleTo = 100,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/br609.1/fahrgastzelle/rumpf_22_bob.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/rumpf_22_lod1.msh",
+						name = "Rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br609.1/fahrgastzelle/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/fenster_22_lod0.msh",
+						name = "Fenster",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						mesh = "vehicle/train/br609.1/faltenbalg_lod1.msh",
+						name = "faltenbalg",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.504, 0, 2.5973, 1, },
+					},
+					{
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						mesh = "vehicle/train/br609.1/faltenbalg_lod1.msh",
+						name = "faltenbalg",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.504, 0, 2.5973, 1, },
+					},
+					{
+				        animations = {
+					        open_doors_right = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_right = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/train/br609.1/fahrgastzelle/rumpf_22_bob.mtl", "vehicle/train/br609.1/fahrgastzelle/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/tuer_r_lod1.msh",
+						name = "tritt_1r",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.10292, -1.4529, 0.748, 1, },
+					},
+					{
+				        animations = {
+					        open_doors_right = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_right = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/train/br609.1/fahrgastzelle/rumpf_22_bob.mtl", "vehicle/train/br609.1/fahrgastzelle/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/tuer_l_lod1.msh",
+						name = "tritt_1r",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.66586, -1.4529, 0.748, 1, },
+					},
+					{
+				        animations = {
+					        open_doors_right = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_right = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/train/br609.1/fahrgastzelle/rumpf_21_bob.mtl", "vehicle/train/br609.1/fahrgastzelle/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/tuer_l_lod1.msh",
+						name = "tritt_1r",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.10292, -1.4529, 0.748, 1, },
+					},
+					{
+				        animations = {
+					        open_doors_right = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_right = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/train/br609.1/fahrgastzelle/rumpf_21_bob.mtl", "vehicle/train/br609.1/fahrgastzelle/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/tuer_r_lod1.msh",
+						name = "tritt_1r",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.66586, -1.4529, 0.748, 1, },
+					},
+
+					{
+				        animations = {
+					        open_doors_left = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_left = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/train/br609.1/fahrgastzelle/rumpf_22_bob.mtl", "vehicle/train/br609.1/fahrgastzelle/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/tuer_l_lod1.msh",
+						name = "tritt_1r",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.10292, 1.4529, 0.748, 1, },
+					},
+					{
+				        animations = {
+					        open_doors_left = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_left = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/train/br609.1/fahrgastzelle/rumpf_22_bob.mtl", "vehicle/train/br609.1/fahrgastzelle/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/tuer_r_lod1.msh",
+						name = "tritt_1r",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.66586, 1.4529, 0.748, 1, },
+					},
+					{
+				        animations = {
+					        open_doors_left = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_left = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/train/br609.1/fahrgastzelle/rumpf_21_bob.mtl", "vehicle/train/br609.1/fahrgastzelle/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/tuer_r_lod1.msh",
+						name = "tritt_1r",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.10292, 1.4529, 0.748, 1, },
+					},
+					{
+				        animations = {
+					        open_doors_left = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_left = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/train/br609.1/fahrgastzelle/rumpf_21_bob.mtl", "vehicle/train/br609.1/fahrgastzelle/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/tuer_l_lod1.msh",
+						name = "tritt_1r",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.66586, 1.4529, 0.748, 1, },
+					},
+					{
+						materials = { "vehicle/train/br609.1/fahrgastzelle/innen.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/innen_22_lod0.msh",
+						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 300,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/br609.1/fahrgastzelle/rumpf_22_bob.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/rumpf_22_lod2.msh",
+						name = "Rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br609.1/fahrgastzelle/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/fenster_22_lod0.msh",
+						name = "Fenster",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						mesh = "vehicle/train/br609.1/faltenbalg_lod2.msh",
+						name = "faltenbalg",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.504, 0, 2.5973, 1, },
+					},
+					{
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						mesh = "vehicle/train/br609.1/faltenbalg_lod2.msh",
+						name = "faltenbalg",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.504, 0, 2.5973, 1, },
+					},
+					{
+				        animations = {
+					        open_doors_right = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_right = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/train/br609.1/fahrgastzelle/rumpf_22_bob.mtl", "vehicle/train/br609.1/fahrgastzelle/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/tuer_r_lod2.msh",
+						name = "tritt_1r",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.10292, -1.4529, 0.748, 1, },
+					},
+					{
+				        animations = {
+					        open_doors_right = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_right = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/train/br609.1/fahrgastzelle/rumpf_22_bob.mtl", "vehicle/train/br609.1/fahrgastzelle/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/tuer_l_lod2.msh",
+						name = "tritt_1r",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.66586, -1.4529, 0.748, 1, },
+					},
+					{
+				        animations = {
+					        open_doors_right = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_right = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/train/br609.1/fahrgastzelle/rumpf_21_bob.mtl", "vehicle/train/br609.1/fahrgastzelle/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/tuer_l_lod2.msh",
+						name = "tritt_1r",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.10292, -1.4529, 0.748, 1, },
+					},
+					{
+				        animations = {
+					        open_doors_right = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_right = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/train/br609.1/fahrgastzelle/rumpf_21_bob.mtl", "vehicle/train/br609.1/fahrgastzelle/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/tuer_r_lod2.msh",
+						name = "tritt_1r",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.66586, -1.4529, 0.748, 1, },
+					},
+
+					{
+				        animations = {
+					        open_doors_left = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_left = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/train/br609.1/fahrgastzelle/rumpf_22_bob.mtl", "vehicle/train/br609.1/fahrgastzelle/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/tuer_l_lod2.msh",
+						name = "tritt_1r",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.10292, 1.4529, 0.748, 1, },
+					},
+					{
+				        animations = {
+					        open_doors_left = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_left = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/train/br609.1/fahrgastzelle/rumpf_22_bob.mtl", "vehicle/train/br609.1/fahrgastzelle/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/tuer_r_lod2.msh",
+						name = "tritt_1r",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.66586, 1.4529, 0.748, 1, },
+					},
+					{
+				        animations = {
+					        open_doors_left = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_left = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_r.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/train/br609.1/fahrgastzelle/rumpf_21_bob.mtl", "vehicle/train/br609.1/fahrgastzelle/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/tuer_r_lod2.msh",
+						name = "tritt_1r",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.10292, 1.4529, 0.748, 1, },
+					},
+					{
+				        animations = {
+					        open_doors_left = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_left = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/br609.1/tuer_l.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/train/br609.1/fahrgastzelle/rumpf_21_bob.mtl", "vehicle/train/br609.1/fahrgastzelle/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/tuer_l_lod2.msh",
+						name = "tritt_1r",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.66586, 1.4529, 0.748, 1, },
+					},
+					{
+						materials = { "vehicle/train/br609.1/fahrgastzelle/innen.mtl", },
+						mesh = "vehicle/train/br609.1/fahrgastzelle/innen_22_lod0.msh",
+						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 300,
+			visibleTo = 1500,
 		},
 	},
 	metadata = {
@@ -518,7 +1146,7 @@ return {
 			price = -1,
 		},
 		description = {
-			name = _("Integral_Fahrgastzelle22_BOB"),
+			name = _("Integral_Fahrgastzelle22").._("BOB"),
 		},
 		emission = {
 			idleEmission = -1,

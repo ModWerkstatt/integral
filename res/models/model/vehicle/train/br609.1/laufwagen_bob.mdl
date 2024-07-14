@@ -87,7 +87,161 @@ return {
 			},
 			static = false,
 			visibleFrom = 0,
-			visibleTo = 1280.2540283203,
+			visibleTo = 100,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						mesh = "vehicle/train/br609.1/laufwagen/rumpf_lod1.msh",
+						name = "Rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br609.1/laufwagen/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/laufwagen/fenster_lod0.msh",
+						name = "Fenster",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						mesh = "vehicle/train/br609.1/faltenbalg_lod1.msh",
+						name = "faltenbalg",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.501, 0, 2.5973, 1, },
+					},
+					{
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						mesh = "vehicle/train/br609.1/faltenbalg_lod1.msh",
+						name = "faltenbalg",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.317, 0, 2.5973, 1, },
+					},
+                    {
+				        children = {
+					        {
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        mesh = "vehicle/train/br609.1/laufwerk_lod1.msh",
+						        name = "Cube",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        mesh = "vehicle/train/br609.1/achse_lod1.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.46933299303055, 1, },
+					        },
+                        },
+				        name = "RootNode",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.3481612205505, 0, 0, 1, },
+                    },
+                    {
+				        children = {
+					        {
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        mesh = "vehicle/train/br609.1/laufwerk_lod1.msh",
+						        name = "Cube",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        mesh = "vehicle/train/br609.1/achse_lod1.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.46933299303055, 1, },
+					        },
+                        },
+				        name = "RootNode",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.3481612205505, 0, 0, 1, },
+                    },
+					{
+						materials = { "vehicle/train/br609.1/laufwagen/innen.mtl", },
+						mesh = "vehicle/train/br609.1/laufwagen/innen_lod0.msh",
+						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 300,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						mesh = "vehicle/train/br609.1/laufwagen/rumpf_lod2.msh",
+						name = "Rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br609.1/laufwagen/fenster.mtl", },
+						mesh = "vehicle/train/br609.1/laufwagen/fenster_lod0.msh",
+						name = "Fenster",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						mesh = "vehicle/train/br609.1/faltenbalg_lod2.msh",
+						name = "faltenbalg",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.501, 0, 2.5973, 1, },
+					},
+					{
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						mesh = "vehicle/train/br609.1/faltenbalg_lod2.msh",
+						name = "faltenbalg",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.317, 0, 2.5973, 1, },
+					},
+                    {
+				        children = {
+					        {
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        mesh = "vehicle/train/br609.1/laufwerk_lod2.msh",
+						        name = "Cube",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        mesh = "vehicle/train/br609.1/achse_lod2.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.46933299303055, 1, },
+					        },
+                        },
+				        name = "RootNode",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.3481612205505, 0, 0, 1, },
+                    },
+                    {
+				        children = {
+					        {
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        mesh = "vehicle/train/br609.1/laufwerk_lod2.msh",
+						        name = "Cube",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
+						        mesh = "vehicle/train/br609.1/achse_lod2.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.46933299303055, 1, },
+					        },
+                        },
+				        name = "RootNode",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.3481612205505, 0, 0, 1, },
+                    },
+					{
+						materials = { "vehicle/train/br609.1/laufwagen/innen.mtl", },
+						mesh = "vehicle/train/br609.1/laufwagen/innen_lod0.msh",
+						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 300,
+			visibleTo = 1500,
 		},
 	},
 	metadata = {
