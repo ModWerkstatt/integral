@@ -9,6 +9,6 @@ return {
 	},
 	name = _("integral_brb_name"),
 	desc = _("integral_brb_desc"),
-    groupFileName = "vehicle/train/br609.10/menu_integral.mdl",
+    groupFileName = "vehicle/train/br609.1/menu_integral.mdl",
 }
 end

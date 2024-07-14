@@ -9,6 +9,6 @@ return {
 	},
 	name = _("integral_regio1_name"),
 	desc = _("integral_regio1_desc"),
-    groupFileName = "vehicle/train/br609.10/menu_integral.mdl",
+    groupFileName = "vehicle/train/br609.1/menu_integral.mdl",
 }
 end
