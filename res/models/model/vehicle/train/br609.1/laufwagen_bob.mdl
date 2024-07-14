@@ -268,24 +268,13 @@ return {
 			configs = {
                 {
 					axles = { "vehicle/train/br609.1/achse_lod0.msh", },
-					frontForwardParts = { },
-                    backBackwardParts = { },
-					backForwardParts = { },
-					frontBackwardParts = { },
 				},
-				--[[{
-					axles = { "vehicle/train/integral/achse_lod1.msh", },
-					frontForwardParts = { },
-                    backBackwardParts = { },
-					backForwardParts = { },
-					frontBackwardParts = { },
+                {
+					axles = { "vehicle/train/br609.1/achse_lod1.msh", },
 				},
-				{
-					axles = { "vehicle/train/integral/achse_lod2.msh", },
+                {
+					axles = { "vehicle/train/br609.1/achse_lod2.msh", },
 				},
-				{
-					axles = { "vehicle/train/integral/achse_lod3.msh", },
-				},]]
 			},
 			engines = {	},
 			soundSet = { name = "br420_alt", },

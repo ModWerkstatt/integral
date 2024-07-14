@@ -147,6 +147,12 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
+						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_bob.mtl", },
+						mesh = "vehicle/train/br609.1/endwagen/bugklappe_geschlossen_lod1.msh",
+						name = "Bugklappe geschlossen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
 						materials = { "vehicle/train/br609.1/endwagen/fenster.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/fenster_lod0.msh",
 						name = "Fenster",
@@ -239,6 +245,12 @@ return {
 						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_bob.mtl", },
 						mesh = "vehicle/train/br609.1/endwagen/rumpf_lod2.msh",
 						name = "Rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br609.1/endwagen/rumpf_2_bob.mtl", },
+						mesh = "vehicle/train/br609.1/endwagen/bugklappe_geschlossen_lod2.msh",
+						name = "Bugklappe geschlossen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
@@ -367,19 +379,20 @@ return {
                     innerForwardParts = { 3, },
                     innerBackwardParts = { 5, },
 				},
-				--[[{
-					axles = { "vehicle/train/integral/achse_lod1.msh", },
+				{
+					axles = { "vehicle/train/br609.1/achse_lod1.msh", },
 					frontForwardParts = { },
                     backBackwardParts = { },
-					backForwardParts = { },
-					frontBackwardParts = { },
+					backForwardParts = { 2, 16, },
+					frontBackwardParts = { 3, 15, },
+                    innerForwardParts = { },
+                    innerBackwardParts = { },
 				},
 				{
-					axles = { "vehicle/train/integral/achse_lod2.msh", },
+					axles = { "vehicle/train/br609.1/achse_lod2.msh", },
+                    backForwardParts = { 2, },
+					frontBackwardParts = { 3, },
 				},
-				{
-					axles = { "vehicle/train/integral/achse_lod3.msh", },
-				},]]
 			},
 			engines = {
 				{

@@ -1170,19 +1170,28 @@ return {
                         { group = 0, offset = 0, position = 6.67 },
                     },
 				},
-				--[[{
-					axles = { "vehicle/train/integral/achse_lod1.msh", },
+                {
+					axles = { },
 					frontForwardParts = { },
                     backBackwardParts = { },
 					backForwardParts = { },
 					frontBackwardParts = { },
+                    fakeBogies = {
+                        { group = 0, offset = 0, position = -6.67 },
+                        { group = 0, offset = 0, position = 6.67 },
+                    },
 				},
-				{
-					axles = { "vehicle/train/integral/achse_lod2.msh", },
+                {
+					axles = { },
+					frontForwardParts = { },
+                    backBackwardParts = { },
+					backForwardParts = { },
+					frontBackwardParts = { },
+                    fakeBogies = {
+                        { group = 0, offset = 0, position = -6.67 },
+                        { group = 0, offset = 0, position = 6.67 },
+                    },
 				},
-				{
-					axles = { "vehicle/train/integral/achse_lod3.msh", },
-				},]]
 			},
 			engines = {	},
 			soundSet = { name = "br420_alt", },
