@@ -20,7 +20,7 @@ return {
 			fadeOutEndDist = 20000,
 			fadeOutStartDist = 10000,
 		},
-		map_albedo_opacity = {
+		map_albedo = {
 			fileName = "models/vehicle/train/br609.1/endwagen/innen_albedo.dds",
 			type = "TWOD",
 		},
@@ -39,6 +39,6 @@ return {
 			twoSided = false,
 		},
 	},
-	type = "PHYS_TRANSPARENT",
+	type = "PHYSICAL",
 }
 end

@@ -20,12 +20,12 @@ return {
 			fadeOutEndDist = 20000,
 			fadeOutStartDist = 10000,
 		},
-		map_albedo_opacity = {
-			fileName = "models/vehicle/train/br609.1/fahrgastzelle/innen_albedo.dds",
+		map_albedo = {
+			fileName = "models/vehicle/train/br609.1/fahrgastzelle/innen_22_albedo.dds",
 			type = "TWOD",
 		},
 		map_metal_gloss_ao = {
-			fileName = "models/vehicle/train/br609.1/fahrgastzelle/innen_metal_gloss_ao.dds",
+			fileName = "models/vehicle/train/br609.1/fahrgastzelle/innen_22_metal_gloss_ao.dds",
 			scaleDownAllowed = false,
 			type = "TWOD",
 		},
@@ -39,6 +39,6 @@ return {
 			twoSided = false,
 		},
 	},
-	type = "PHYS_TRANSPARENT",
+	type = "PHYSICAL",
 }
 end
