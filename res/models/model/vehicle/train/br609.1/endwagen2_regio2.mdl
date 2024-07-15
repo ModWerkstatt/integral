@@ -214,7 +214,7 @@ return {
                     },
 					{
 						materials = { "vehicle/train/br609.1/endwagen/innen.mtl", },
-						mesh = "vehicle/train/br609.1/endwagen/innen_2_lod0.msh",
+						mesh = "vehicle/train/br609.1/endwagen/innen_2_lod1.msh",
 						name = "Blech Auspuff 1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -321,7 +321,7 @@ return {
                     },
 					{
 						materials = { "vehicle/train/br609.1/endwagen/innen.mtl", },
-						mesh = "vehicle/train/br609.1/endwagen/innen_2_lod0.msh",
+						mesh = "vehicle/train/br609.1/endwagen/innen_2_lod2.msh",
 						name = "Blech Auspuff 1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},

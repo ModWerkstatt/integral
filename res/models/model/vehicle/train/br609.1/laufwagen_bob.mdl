@@ -154,7 +154,7 @@ return {
                     },
 					{
 						materials = { "vehicle/train/br609.1/laufwagen/innen.mtl", },
-						mesh = "vehicle/train/br609.1/laufwagen/innen_lod0.msh",
+						mesh = "vehicle/train/br609.1/laufwagen/innen_lod1.msh",
 						name = "innen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -231,7 +231,7 @@ return {
                     },
 					{
 						materials = { "vehicle/train/br609.1/laufwagen/innen.mtl", },
-						mesh = "vehicle/train/br609.1/laufwagen/innen_lod0.msh",
+						mesh = "vehicle/train/br609.1/laufwagen/innen_lod2.msh",
 						name = "innen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
