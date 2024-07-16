@@ -449,7 +449,7 @@ return {
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.66586, 1.4529, 0.748, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/fahrgastzelle/innen_22.mtl", },
+						materials = { "vehicle/train/br609.1/fahrgastzelle/innen.mtl", },
 						mesh = "vehicle/train/br609.1/fahrgastzelle/innen_22_lod0.msh",
 						name = "innen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -769,7 +769,7 @@ return {
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.66586, 1.4529, 0.748, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/fahrgastzelle/innen_22.mtl", },
+						materials = { "vehicle/train/br609.1/fahrgastzelle/innen.mtl", },
 						mesh = "vehicle/train/br609.1/fahrgastzelle/innen_22_lod1.msh",
 						name = "innen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -1083,7 +1083,7 @@ return {
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.66586, 1.4529, 0.748, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/fahrgastzelle/innen_22.mtl", },
+						materials = { "vehicle/train/br609.1/fahrgastzelle/innen.mtl", },
 						mesh = "vehicle/train/br609.1/fahrgastzelle/innen_22_lod2.msh",
 						name = "innen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
