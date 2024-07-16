@@ -3,7 +3,7 @@ return {
 	vehicles = {
 		{ name = "vehicle/train/br609.1/endwagen1_regio1.mdl", forward = false },
 		{ name = "vehicle/train/br609.1/fahrgastzelle21_regio1.mdl", forward = true },
-   		{ name = "vehicle/train/br609.1/laufwagen_bob.mdl", forward = true },
+   		{ name = "vehicle/train/br609.1/laufwagen_regio1.mdl", forward = true },
         { name = "vehicle/train/br609.1/fahrgastzelle22_regio1.mdl", forward = false },
 		{ name = "vehicle/train/br609.1/endwagen2_regio1.mdl", forward = true },
 	},
