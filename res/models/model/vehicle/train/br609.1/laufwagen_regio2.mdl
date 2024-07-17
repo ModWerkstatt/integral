@@ -28,16 +28,16 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
 						mesh = "vehicle/train/br609.1/faltenbalg_lod0.msh",
 						name = "faltenbalg",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.501, 0, 2.5973, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.74, 0, 2.5973, 1, },
 					},
 					{
-						materials = { "vehicle/train/br609.1/laufwagen/rumpf_regio2.mtl", },
+						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
 						mesh = "vehicle/train/br609.1/faltenbalg_lod0.msh",
 						name = "faltenbalg",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.317, 0, 2.5973, 1, },
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.547, 0, 2.5973, 1, },
 					},
                     {
 				        children = {
@@ -277,7 +277,7 @@ return {
 				},
 			},
 			engines = {	},
-			soundSet = { name = "br420_alt", },
+			soundSet = { name = "waggon_modern", },
 			topSpeed = 38.8888888888888,
 			weight = 16,
 		},

@@ -67,7 +67,7 @@ return {
 						materials = { "vehicle/train/br609.1/laufwagen/rumpf_bob.mtl", },
 						mesh = "vehicle/train/br609.1/faltenbalg_lod0.msh",
 						name = "faltenbalg",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.40285, 0, 2.5973, 1, },
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.64285, 0, 2.5973, 1, },
 					},
                     {
 				        children = {
@@ -349,6 +349,28 @@ return {
 				},
 			},
 		},
+		particleSystem = {
+			emitters = {
+				{
+					child = 0,
+					color = { 0.2, 0.2, 0.2, },
+					frequency = 40,
+					lifeTime = 0.3,
+					position = { -3.4245, -1.0384, 4.0, },
+					size01 = { 0.4, 4, },
+					velocity = { 0, 0, 5, },
+				},
+				{
+					child = 0,
+					color = { 0.2, 0.2, 0.2, },
+					frequency = 40,
+					lifeTime = 0.3,
+					position = { -3.2441, -1.1599, 4.0, },
+					size01 = { 0.4, 4, },
+					velocity = { 0, 0, 5, },
+				},
+			},
+		},
         availability = {
 			yearFrom = 1998,
 			yearTo = 2016,
@@ -401,7 +423,7 @@ return {
 					type = "DIESEL",
 				},
 			},
-			soundSet = { name = "br420_alt", },
+			soundSet = { name = "integral", },
 			topSpeed = 38.8888888888888,
 			weight = 22,
 		},
