@@ -350,14 +350,14 @@ return {
 			},
 		},
         availability = {
-			yearFrom = 2016,
-			yearTo = 2021,
+			yearFrom = 1998,
+			yearTo = 2016,
 		},
 		cost = {
 			price = -1,
 		},
 		description = {
-			name = _("Integral_Endwagen1").._("BRB"),
+			name = _("Integral_Endwagen1").._("BOB"),
 		},
 		emission = {
 			idleEmission = -1,
