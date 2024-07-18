@@ -1194,7 +1194,7 @@ return {
 				},
 			},
 			engines = {	},
-			soundSet = { name = "waggon_modern", },
+			soundSet = { name = "integral_fahrgastzelle", },
 			topSpeed = 38.8888888888888,
 			weight = 7,
 		},

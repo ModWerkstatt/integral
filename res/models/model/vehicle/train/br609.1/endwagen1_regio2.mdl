@@ -423,7 +423,7 @@ return {
 					type = "DIESEL",
 				},
 			},
-			soundSet = { name = "integral", },
+			soundSet = { name = "integral_endwagen", },
 			topSpeed = 38.8888888888888,
 			weight = 22,
 		},
