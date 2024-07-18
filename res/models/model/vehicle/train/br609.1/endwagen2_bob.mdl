@@ -353,11 +353,11 @@ return {
 			emitters = {
 				{
 					child = 0,
-					color = { 0.2, 0.2, 0.2, },
+					color = { 0.4, 0.4, 0.4, },
 					frequency = 40,
 					lifeTime = 0.3,
-					position = { -3.371, -1.045, 4.0, },
-					size01 = { 0.4, 4, },
+					position = { -3.371, -1.045, 4.15, },
+					size01 = { 0.2, 0.2, },
 					velocity = { 0, 0, 5, },
 				},
 			},
