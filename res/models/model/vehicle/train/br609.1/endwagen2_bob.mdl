@@ -352,7 +352,7 @@ return {
 		particleSystem = {
 			emitters = {
 				{
-					child = 0,
+					child = 1,
 					color = { 0.4, 0.4, 0.4, },
 					frequency = 40,
 					lifeTime = 0.3,
